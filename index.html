@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Statusboard für das Git Workflow Lab">
+    <title>Git Workflow Lab</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand-mark" aria-hidden="true">G</div>
+      <div>
+        <p class="eyebrow">MMP Collaboration Practice</p>
+        <h1>Git Workflow Lab</h1>
+      </div>
+      <div class="status" id="completion-status" aria-live="polite">0 / 10 bereit</div>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="team-heading">
+        <div>
+          <p class="section-label">Runde 1</p>
+          <h2 id="team-heading">Team-Profile</h2>
+        </div>
+        <p>Jedes Profil wird über einen eigenen Branch, Pull Request und ein Tandem-Review ergänzt.</p>
+      </section>
+      <section class="profile-grid" id="profile-grid" aria-label="Profile der Teilnehmenden"></section>
+
+      <section class="decision-section" aria-labelledby="decision-heading">
+        <div class="intro">
+          <div>
+            <p class="section-label">Runde 2</p>
+            <h2 id="decision-heading">Gemeinsame Git-Entscheide</h2>
+          </div>
+          <p>Je zwei Personen bearbeiten denselben Entscheid und lösen den entstehenden Konflikt.</p>
+        </div>
+        <div class="decision-grid" id="decision-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <span>120 Minuten</span>
+      <span>10 Personen</span>
+      <span>5 Review-Tandems</span>
+    </footer>
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
+
