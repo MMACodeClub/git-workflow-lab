@@ -33,7 +33,7 @@ create_issue() {
   existing_titles="${existing_titles}"$'\n'"${title}"
 }
 
-for number in {01..10}; do
+for number in 01 02 03 04 05 06 07 08 09 10; do
   file="src/profiles/profile-${number}.js"
   title="Runde 1: Profil von Person ${number} ergänzen"
   body="## Aufgabe
