@@ -4,6 +4,7 @@ Ein vollständiges 120-Minuten-Übungsrepository für **10 Personen**. Die Grupp
 
 - Feature Branches und sinnvolle Commits
 - Pull Requests und Code Reviews
+- Request Changes und Suggested Changes
 - Merge-Konflikte bewusst erzeugen und lösen
 - `fetch`, Rebase und `--force-with-lease`
 - Fast-Forward, Merge Commit und Squash unterscheiden
@@ -18,7 +19,7 @@ npm test
 npm start
 ```
 
-Danach ist die App unter [http://localhost:4173](http://localhost:4173) erreichbar.
+Danach ist die App unter [http://localhost:4173](http://localhost:4173) erreichbar. Voraussetzung ist Node.js 18 oder neuer; Python und zusätzliche npm-Pakete werden nicht benötigt.
 
 ## Rollen und Unterlagen
 
@@ -38,7 +39,7 @@ Die App und die Tests machen den Zustand sichtbar. Ein Pull Request ist erst ber
 
 ## Für die Lehrperson
 
-Nach dem Veröffentlichen können die zehn vorbereiteten GitHub Issues mit diesem Skript erzeugt werden:
+Nach dem Veröffentlichen können die 16 vorbereiteten GitHub Issues mit diesem Skript erzeugt werden. Es kann gefahrlos erneut ausgeführt werden und überspringt vorhandene Aufgaben:
 
 ```bash
 ./scripts/create-issues.sh
@@ -46,3 +47,6 @@ Nach dem Veröffentlichen können die zehn vorbereiteten GitHub Issues mit diese
 
 Repository-Einstellungen, Zeitplan, Notfallplan und Abschlusskontrolle stehen in [docs/MODERATION.md](docs/MODERATION.md).
 
+## Lizenz
+
+Dieses Lehr-Repository steht unter der [MIT-Lizenz](LICENSE).

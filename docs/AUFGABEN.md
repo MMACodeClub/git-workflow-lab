@@ -19,10 +19,12 @@ Jede Zeile ist eine kompakte Aufgabenkarte. Die exakten Texte in Runde 2 sind be
 
 - Nur die eigene Profil-Datei wurde verändert.
 - `name` enthält den eigenen Anzeigenamen.
-- `strength` beschreibt eine konkrete Stärke in der Zusammenarbeit.
+- `strength` beginnt im ersten PR bewusst als allgemeines Stichwort.
 - `ready` steht auf `true`.
 - `npm test` ist grün.
-- Pull Request und Review sind vollständig.
+- Die Review-Person konkretisiert die Stärke mit einem Suggested Change und wählt Request Changes.
+- Die Autorin oder der Autor übernimmt und committet den Vorschlag im GitHub-UI.
+- Erst die zweite Review erteilt das Approval.
 
 ## Akzeptanzkriterien Runde 2
 
@@ -32,4 +34,4 @@ Jede Zeile ist eine kompakte Aufgabenkarte. Die exakten Texte in Runde 2 sind be
 - Der zweite Branch wurde auf `origin/main` rebased.
 - Die endgültige Formulierung wurde im Tandem fachlich entschieden, nicht blind übernommen.
 - Aktualisierung erfolgte mit `git push --force-with-lease`.
-
+- Das durch den Rebase verworfene Approval wurde nach erneuter Prüfung neu erteilt.

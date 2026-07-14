@@ -61,3 +61,13 @@ git reflog
 - Öffentliche Branch-Historie nur bewusst umschreiben.
 - Nach Rebase immer `--force-with-lease`; es schützt vor dem Überschreiben fremder neuer Commits.
 
+## GitHub-Begriffe
+
+| Mechanik | Zweck |
+| --- | --- |
+| Draft Pull Request | Arbeit früh sichtbar machen, bevor sie reviewbereit ist |
+| Suggested Change | konkrete Codeänderung direkt im Review vorschlagen |
+| Request Changes | Merge blockieren, bis Feedback eingearbeitet und erneut geprüft ist |
+| Dismiss stale approvals | alte Freigabe nach neuen Commits automatisch verwerfen |
+| `Closes #12` | Issue beim Merge automatisch schliessen |
+| `Refs #12` | Issue verknüpfen, aber offen lassen |
