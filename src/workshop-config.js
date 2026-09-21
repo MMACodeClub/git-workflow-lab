@@ -8,7 +8,7 @@ export const teamColors = {
 
 // In Runde 2 bearbeiten die zwei Personen eines Teams jeweils dieselbe decision-Zeile.
 export const conflictTopics = {
-  A: { title: 'Branch-Namen', decision: 'vibe coden', note: 'Personen 01 + 02' },
+  A: { title: 'Branch-Namen', decision: 'feat, kürzer zum schreiben', note: 'Personen 01 + 02' },
   B: { title: 'Merge-Strategie', decision: 'Noch nicht entschieden', note: 'Personen 03 + 04' },
   C: { title: 'Commit-Stil', decision: 'Noch nicht entschieden', note: 'Personen 05 + 06' },
   D: { title: 'Review-Regel', decision: 'Noch nicht entschieden', note: 'Personen 07 + 08' },
