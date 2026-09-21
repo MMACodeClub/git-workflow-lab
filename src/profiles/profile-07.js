@@ -1,1 +1,1 @@
-export const profile = { id: 7, name: 'Offen', strength: 'Noch nicht eingetragen', team: 'D', ready: false };
+export const profile = { id: 7, name: 'Benjamin Hanimann', strength: 'Motivation', team: 'D', ready: true };
